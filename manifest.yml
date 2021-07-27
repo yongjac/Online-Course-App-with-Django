@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: host.domain
-    memory: 128M
+      - route: yongjacliew.us-south.cf.appdomain.cloud
+    memory: 64M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: host.domain/static
-    memory: 128M
+      - route: yongjacliew.us-south.cf.appdomain.cloud/static
+    memory: 64M
     buildpack: staticfile_buildpack
